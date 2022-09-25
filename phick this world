@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+
+fig = plt.figure(figsize = (8, 5), dpi = 250)
+x = [3,3,3,3,3,3, 2,4,4, 7,7,7,7,8,9,9,9,9]
+y = [1,2,3,4,5,6, 4,4,6, 1,2,3,4,1,1,2,3,4]
+plt.scatter(x, y, marker = 's', s = 2500, c = 'firebrick')
+plt.axis('equal')
+plt.xlim(-1,10)
+plt.ylim(-1,10)
